@@ -8,14 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Debian based linux distro Setup &middot; Abdul Quadeer&#39;s blog</title>
-  <meta name="title" content="Debian based linux distro Setup &middot; Abdul Quadeer&#39;s blog" />
+  <title>Computer Network &middot; Abdul Quadeer&#39;s blog</title>
+  <meta name="title" content="Computer Network &middot; Abdul Quadeer&#39;s blog" />
   
   
   
   
   
-  <link rel="canonical" href="/posts/linux-setup/" />
+  <link rel="canonical" href="/posts/computer-network/" />
   
   
   
@@ -61,18 +61,18 @@
   
   
   
-  <meta property="og:title" content="Debian based linux distro Setup" />
-<meta property="og:description" content="Things to Do After Installing a Debian-Based Distro #  Congratulations on installing your Debian-based Linux distribution!" />
+  <meta property="og:title" content="Computer Network" />
+<meta property="og:description" content="Network Command Explanation #   tcpdump #  tcpdump is a packet analyzer tool that allows you to capture and analyze network traffic." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/linux-setup/" /><meta property="og:image" content="/posts/linux-setup/feature.jpeg"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-11-05T22:57:34+05:30" />
-<meta property="article:modified_time" content="2023-11-05T22:57:34+05:30" /><meta property="og:site_name" content="Abdul Quadeer&#39;s blog" />
+<meta property="og:url" content="/posts/computer-network/" /><meta property="og:image" content="/posts/computer-network/feature.jpeg"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-11-06T11:20:05+05:30" />
+<meta property="article:modified_time" content="2023-11-06T11:20:05+05:30" /><meta property="og:site_name" content="Abdul Quadeer&#39;s blog" />
 
 
   <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="/posts/linux-setup/feature.jpeg"/>
-<meta name="twitter:title" content="Debian based linux distro Setup"/>
-<meta name="twitter:description" content="Things to Do After Installing a Debian-Based Distro #  Congratulations on installing your Debian-based Linux distribution!"/>
+<meta name="twitter:image" content="/posts/computer-network/feature.jpeg"/>
+<meta name="twitter:title" content="Computer Network"/>
+<meta name="twitter:description" content="Network Command Explanation #   tcpdump #  tcpdump is a packet analyzer tool that allows you to capture and analyze network traffic."/>
 
   
   <script type="application/ld+json">
@@ -80,26 +80,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Posts",
-    "name": "Debian based linux distro Setup",
-    "headline": "Debian based linux distro Setup",
+    "name": "Computer Network",
+    "headline": "Computer Network",
     
-    "abstract": "Things to Do After Installing a Debian-Based Distro #  Congratulations on installing your Debian-based Linux distribution!",
+    "abstract": "Network Command Explanation #   tcpdump #  tcpdump is a packet analyzer tool that allows you to capture and analyze network traffic.",
     "inLanguage": "en",
-    "url" : "\/posts\/linux-setup\/",
+    "url" : "\/posts\/computer-network\/",
     "author" : {
       "@type": "Person",
       "name": "Mohammad Abdul Quadeer"
     },
     "copyrightYear": "2023",
-    "dateCreated": "2023-11-05T22:57:34\u002b05:30",
-    "datePublished": "2023-11-05T22:57:34\u002b05:30",
+    "dateCreated": "2023-11-06T11:20:05\u002b05:30",
+    "datePublished": "2023-11-06T11:20:05\u002b05:30",
     
-    "dateModified": "2023-11-05T22:57:34\u002b05:30",
+    "dateModified": "2023-11-06T11:20:05\u002b05:30",
     
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "668"
+    "wordCount": "442"
   }]
   </script>
 
@@ -378,7 +378,7 @@
 
     
     <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
-    style="background-image:url(/posts/linux-setup/feature_hu5a1df5d6cca77f0876c4c8749db3d7d6_323335_1200x0_resize_q75_box.jpeg);">
+    style="background-image:url(/posts/computer-network/feature_hu5a1df5d6cca77f0876c4c8749db3d7d6_323335_1200x0_resize_q75_box.jpeg);">
     
 
 
@@ -404,7 +404,7 @@
   <header id="single_header" class="mt-5 max-w-prose">
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      Debian based linux distro Setup
+      Computer Network
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -445,7 +445,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <span>668 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
+  <span>442 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
   
 
   
@@ -601,15 +601,13 @@
     class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#update-and-upgrade-your-system">Update and Upgrade Your System</a></li>
-    <li><a href="#install-additional-software">Install Additional Software</a></li>
-    <li><a href="#configure-system-repositories">Configure System Repositories</a></li>
-    <li><a href="#install-proprietary-drivers">Install Proprietary Drivers</a></li>
-    <li><a href="#set-up-user-accounts-and-passwords">Set Up User Accounts and Passwords</a></li>
-    <li><a href="#system-tweaks-and-customization">System Tweaks and Customization</a></li>
-    <li><a href="#install-essential-software">Install Essential Software</a></li>
-    <li><a href="#optimize-power-saving-for-wi-fi">Optimize Power Saving for Wi-Fi</a></li>
-    <li><a href="#improve-security">Improve Security</a></li>
+    <li><a href="#tcpdump"><code>tcpdump</code></a></li>
+    <li><a href="#netstat"><code>netstat</code></a></li>
+    <li><a href="#ifconfig"><code>ifconfig</code></a></li>
+    <li><a href="#nslookup"><code>nslookup</code></a></li>
+    <li><a href="#ftp">FTP</a></li>
+    <li><a href="#telnet">TELNET</a></li>
+    <li><a href="#traceroute"><code>traceroute</code></a></li>
   </ul>
 </nav>
   </div>
@@ -623,15 +621,13 @@
     class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#update-and-upgrade-your-system">Update and Upgrade Your System</a></li>
-    <li><a href="#install-additional-software">Install Additional Software</a></li>
-    <li><a href="#configure-system-repositories">Configure System Repositories</a></li>
-    <li><a href="#install-proprietary-drivers">Install Proprietary Drivers</a></li>
-    <li><a href="#set-up-user-accounts-and-passwords">Set Up User Accounts and Passwords</a></li>
-    <li><a href="#system-tweaks-and-customization">System Tweaks and Customization</a></li>
-    <li><a href="#install-essential-software">Install Essential Software</a></li>
-    <li><a href="#optimize-power-saving-for-wi-fi">Optimize Power Saving for Wi-Fi</a></li>
-    <li><a href="#improve-security">Improve Security</a></li>
+    <li><a href="#tcpdump"><code>tcpdump</code></a></li>
+    <li><a href="#netstat"><code>netstat</code></a></li>
+    <li><a href="#ifconfig"><code>ifconfig</code></a></li>
+    <li><a href="#nslookup"><code>nslookup</code></a></li>
+    <li><a href="#ftp">FTP</a></li>
+    <li><a href="#telnet">TELNET</a></li>
+    <li><a href="#traceroute"><code>traceroute</code></a></li>
   </ul>
 </nav>
   </div>
@@ -647,183 +643,140 @@
 
 
         <div class="max-w-prose mb-20">
-          <div id="things-to-do-after-installing-a-debian-based-distro" class="anchor"></div>
-<h1 class="relative group">Things to Do After Installing a Debian-Based Distro 
+          <div id="network-command-explanation" class="anchor"></div>
+<h1 class="relative group">Network Command Explanation 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#things-to-do-after-installing-a-debian-based-distro" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#network-command-explanation" aria-label="Anchor">#</a></span>        
     
 </h1>
-<p>Congratulations on installing your Debian-based Linux distribution! To make the most of your new operating system, here is a list of essential tasks to complete and things to consider after the installation.</p>
-<div id="update-and-upgrade-your-system" class="anchor"></div>
-<h2 class="relative group">Update and Upgrade Your System 
+<div id="tcpdump" class="anchor"></div>
+<h2 class="relative group"><code>tcpdump</code> 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#update-and-upgrade-your-system" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#tcpdump" aria-label="Anchor">#</a></span>        
     
 </h2>
-<p>Before you start customizing your system, it&rsquo;s crucial to ensure your installation is up to date:</p>
-<p>Open a terminal and run the following commands:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">sudo apt update
-sudo apt upgrade
-</code></pre></div><p>This will update your package list and upgrade all installed packages to their latest versions.</p>
-<div id="install-additional-software" class="anchor"></div>
-<h2 class="relative group">Install Additional Software 
+<p><code>tcpdump</code> is a packet analyzer tool that allows you to capture and analyze network traffic. In the example provided, it captures 10 packets on the &lsquo;eth0&rsquo; interface. You can adjust the interface and packet count as needed for your specific use case.</p>
+<div id="netstat" class="anchor"></div>
+<h2 class="relative group"><code>netstat</code> 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#install-additional-software" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#netstat" aria-label="Anchor">#</a></span>        
     
 </h2>
-<ol>
-<li>
-<p><strong>Package Management:</strong> Debian-based systems use APT (Advanced Package Tool) for package management. You can install software using the <code>apt</code> command. For example:</p>
-<ul>
-<li>To install a web browser (e.g., Firefox): <code>sudo apt install firefox</code></li>
-<li>To install an office suite (e.g., LibreOffice): <code>sudo apt install libreoffice</code></li>
-</ul>
-</li>
-<li>
-<p><strong>Software Center:</strong> Many Debian-based distributions come with a software center where you can easily browse and install software using a graphical interface.</p>
-</li>
-<li>
-<p><strong>Snap and Flatpak:</strong> Consider enabling Snap or Flatpak for access to additional software not available in the official repositories. You may need to install the Snap or Flatpak runtime.</p>
-<ul>
-<li>Snap: <code>sudo apt install snapd</code></li>
-<li>Flatpak: Check your distribution&rsquo;s documentation for installation instructions.</li>
-</ul>
-</li>
-</ol>
-<div id="configure-system-repositories" class="anchor"></div>
-<h2 class="relative group">Configure System Repositories 
+<p><code>netstat</code> is a command-line utility for displaying network statistics, including open ports and active network connections. The command <code>netstat -tuln</code> shows listening TCP and UDP ports.</p>
+<div id="ifconfig" class="anchor"></div>
+<h2 class="relative group"><code>ifconfig</code> 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#configure-system-repositories" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#ifconfig" aria-label="Anchor">#</a></span>        
     
 </h2>
-<p>Ensure that your system is configured to access the appropriate repositories, including security updates and third-party sources if needed. Edit the <code>/etc/apt/sources.list</code> file or use a software source management tool, like <code>software-properties-gtk</code> (for Debian/Ubuntu systems).</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">sudo software-properties-gtk
-</code></pre></div><div id="install-proprietary-drivers" class="anchor"></div>
-<h2 class="relative group">Install Proprietary Drivers 
+<p><code>ifconfig</code> is used to display and configure network interface parameters, including IP addresses, netmasks, and more. It provides information about the network interfaces on your system.</p>
+<div id="nslookup" class="anchor"></div>
+<h2 class="relative group"><code>nslookup</code> 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#install-proprietary-drivers" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#nslookup" aria-label="Anchor">#</a></span>        
     
 </h2>
-<p>If your system requires proprietary drivers for optimal hardware support, install them via the &ldquo;Additional Drivers&rdquo; utility or through the terminal. This may be necessary for graphics cards, Wi-Fi adapters, and more.</p>
-<div id="set-up-user-accounts-and-passwords" class="anchor"></div>
-<h2 class="relative group">Set Up User Accounts and Passwords 
+<p><code>nslookup</code> is a network utility for performing DNS (Domain Name System) lookups. In the provided example, it performs a DNS lookup for &lsquo;example.com&rsquo;, returning information about the domain&rsquo;s IP addresses.</p>
+<div id="ftp" class="anchor"></div>
+<h2 class="relative group">FTP 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#set-up-user-accounts-and-passwords" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#ftp" aria-label="Anchor">#</a></span>        
     
 </h2>
-<p>Create additional user accounts for better security and isolation. To add a new user:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">sudo adduser newusername
-</code></pre></div><p>Make sure to add your user to the <code>sudo</code> group for administrative privileges:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">sudo usermod -aG sudo newusername
-</code></pre></div><p>Change passwords for the root user and your user account:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">sudo passwd root
-passwd yourusername
-</code></pre></div><div id="system-tweaks-and-customization" class="anchor"></div>
-<h2 class="relative group">System Tweaks and Customization 
+<p>FTP (File Transfer Protocol) is a network protocol used for transferring files between a client and a server. To interact with FTP programmatically, you should use dedicated FTP client libraries in C, as the command-line <code>ftp</code> client may not be suitable for automation.</p>
+<div id="telnet" class="anchor"></div>
+<h2 class="relative group">TELNET 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#system-tweaks-and-customization" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#telnet" aria-label="Anchor">#</a></span>        
     
 </h2>
-<ol>
-<li>
-<p><strong>Desktop Environment:</strong> Customize your desktop environment according to your preferences. This may include changing wallpapers, themes, and settings.</p>
-</li>
-<li>
-<p><strong>Keyboard Shortcuts:</strong> Configure keyboard shortcuts for efficiency.</p>
-</li>
-<li>
-<p><strong>Display Settings:</strong> Adjust screen resolution, multiple monitor setup, and screen brightness.</p>
-</li>
-<li>
-<p><strong>Software Updates:</strong> Set up automatic software updates for security and system stability.</p>
-</li>
-<li>
-<p><strong>Firewall:</strong> Enable and configure the firewall (e.g., <code>ufw</code> or <code>iptables</code>) to enhance system security.</p>
-</li>
-<li>
-<p><strong>Time and Date:</strong> Set your time zone and synchronize your system clock with network time servers.</p>
-</li>
-<li>
-<p><strong>User Directories:</strong> Configure user directories, such as Downloads, Documents, and Pictures, for better organization.</p>
-</li>
-</ol>
-<div id="install-essential-software" class="anchor"></div>
-<h2 class="relative group">Install Essential Software 
+<p>TELNET is a network protocol that allows terminal access to remote systems. To interact with TELNET servers programmatically, you&rsquo;ll need to use a TELNET library or API, as it&rsquo;s not straightforward to automate using a command-line program.</p>
+<div id="traceroute" class="anchor"></div>
+<h2 class="relative group"><code>traceroute</code> 
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#install-essential-software" aria-label="Anchor">#</a></span>        
+            style="text-decoration-line: none !important;" href="#traceroute" aria-label="Anchor">#</a></span>        
     
 </h2>
-<p>Install common Linux tools and utilities, including:</p>
-<ul>
-<li>Text editor (e.g., Vim or Nano)</li>
-<li>File manager (e.g., Nautilus, Dolphin)</li>
-<li>Terminal emulator (e.g., GNOME Terminal, Konsole)</li>
-<li>Archiving tool (e.g., File Roller, Ark)</li>
-<li>PDF reader (e.g., Evince, Okular)</li>
-<li>Image viewer (e.g., Eye of GNOME, Gwenview)</li>
-</ul>
-<div id="optimize-power-saving-for-wi-fi" class="anchor"></div>
-<h2 class="relative group">Optimize Power Saving for Wi-Fi 
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#optimize-power-saving-for-wi-fi" aria-label="Anchor">#</a></span>        
+<p><code>traceroute</code> is a network diagnostic tool used to trace the route that packets take from your computer to a destination host (e.g., &lsquo;example.com&rsquo;). It displays a list of intermediate routers and their response times.</p>
+<p>Please note that some of these services/commands may require additional configuration, and some may not be available on all systems. The specific options and usage may vary depending on your operating system and network setup.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
+</span><span class="cp">#include</span> <span class="cpf">&lt;stdlib.h&gt;</span><span class="cp">
+</span><span class="cp"></span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kt">int</span> <span class="n">choice</span><span class="p">;</span>
     
-</h2>
-<p>To improve Wi-Fi speed and responsiveness, you can tweak power-saving settings:</p>
-<ol>
-<li>
-<p><strong>Disable Wi-Fi Power Saving Mode:</strong> By default, Wi-Fi adapters often use power-saving features, which can reduce performance. To disable it temporarily (until the next reboot):</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">sudo iwconfig wlan0 power off
-</code></pre></div><p>Replace <code>wlan0</code> with the name of your Wi-Fi interface.</p>
-<p>To disable it permanently, you can create a configuration file. Create a file in the <code>/etc/network/if-up.d/</code> directory, such as <code>/etc/network/if-up.d/wifi-power-off</code>, with the following content:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="cp">#!/bin/sh
-</span><span class="cp"></span>/sbin/iwconfig wlan0 power off
-</code></pre></div><p>Make it executable with:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">sudo chmod +x /etc/network/if-up.d/wifi-power-off
-</code></pre></div></li>
-<li>
-<p><strong>Tune Network Manager:</strong> If you are using NetworkManager, you can edit its configuration to control power management. Open the NetworkManager configuration file:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">sudo nano /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf
-</code></pre></div><p>Change the value from <code>3</code> to <code>2</code> to disable Wi-Fi power-saving:</p>
-<pre tabindex="0"><code>[connection]
-wifi.powersave = 2
-</code></pre><p>Save the file and restart NetworkManager:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">sudo service network-manager restart
-</code></pre></div></li>
-</ol>
-<div id="improve-security" class="anchor"></div>
-<h2 class="relative group">Improve Security 
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#improve-security" aria-label="Anchor">#</a></span>        
-    
-</h2>
-<ol>
-<li>
-<p><strong>Firewall:</strong> Configure and enable a firewall (e.g., Uncomplicated Firewall, UFW) to control incoming and outgoing traffic.</p>
-</li>
-<li>
-<p><strong>Full Disk Encryption:</strong> If it&rsquo;s not already enabled, consider setting up full-disk encryption (e.g., LUKS) to protect your data in case your device gets stolen.</p>
-</li>
-</ol>
+    <span class="k">while</span> <span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">&#34;Select an option:</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">&#34;1. Run tcpdump</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">&#34;2. Run netstat</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">&#34;3. Run ifconfig</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">&#34;4. Run nslookup</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">&#34;5. Run FTP</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">&#34;6. Run TELNET</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">&#34;7. Run traceroute</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">&#34;8. Exit</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+
+        <span class="n">printf</span><span class="p">(</span><span class="s">&#34;Enter your choice: &#34;</span><span class="p">);</span>
+        <span class="n">scanf</span><span class="p">(</span><span class="s">&#34;%d&#34;</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">choice</span><span class="p">);</span>
+        
+        <span class="k">switch</span> <span class="p">(</span><span class="n">choice</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">case</span> <span class="mi">1</span><span class="o">:</span>
+                <span class="n">system</span><span class="p">(</span><span class="s">&#34;tcpdump -i eth0&#34;</span><span class="p">);</span> <span class="c1">// Replace &#39;eth0&#39; with your network interface
+</span><span class="c1"></span>                <span class="k">break</span><span class="p">;</span>
+            <span class="k">case</span> <span class="mi">2</span><span class="o">:</span>
+                <span class="n">system</span><span class="p">(</span><span class="s">&#34;netstat -tuln&#34;</span><span class="p">);</span>
+                <span class="k">break</span><span class="p">;</span>
+            <span class="k">case</span> <span class="mi">3</span><span class="o">:</span>
+                <span class="n">system</span><span class="p">(</span><span class="s">&#34;ifconfig&#34;</span><span class="p">);</span>
+                <span class="k">break</span><span class="p">;</span>
+            <span class="k">case</span> <span class="mi">4</span><span class="o">:</span>
+                <span class="n">printf</span><span class="p">(</span><span class="s">&#34;Enter the hostname to look up: &#34;</span><span class="p">);</span>
+                <span class="kt">char</span> <span class="n">hostname</span><span class="p">[</span><span class="mi">256</span><span class="p">];</span>
+                <span class="n">scanf</span><span class="p">(</span><span class="s">&#34;%s&#34;</span><span class="p">,</span> <span class="n">hostname</span><span class="p">);</span>
+                <span class="kt">char</span> <span class="n">nslookupCommand</span><span class="p">[</span><span class="mi">256</span><span class="p">];</span>
+                <span class="n">sprintf</span><span class="p">(</span><span class="n">nslookupCommand</span><span class="p">,</span> <span class="s">&#34;nslookup %s&#34;</span><span class="p">,</span> <span class="n">hostname</span><span class="p">);</span>
+                <span class="n">system</span><span class="p">(</span><span class="n">nslookupCommand</span><span class="p">);</span>
+                <span class="k">break</span><span class="p">;</span>
+            <span class="k">case</span> <span class="mi">5</span><span class="o">:</span>
+                <span class="n">system</span><span class="p">(</span><span class="s">&#34;ftp&#34;</span><span class="p">);</span> <span class="c1">// This will start an interactive FTP session
+</span><span class="c1"></span>                <span class="k">break</span><span class="p">;</span>
+            <span class="k">case</span> <span class="mi">6</span><span class="o">:</span>
+                <span class="n">system</span><span class="p">(</span><span class="s">&#34;telnet&#34;</span><span class="p">);</span> <span class="c1">// This will start an interactive TELNET session
+</span><span class="c1"></span>                <span class="k">break</span><span class="p">;</span>
+            <span class="k">case</span> <span class="mi">7</span><span class="o">:</span>
+                <span class="n">printf</span><span class="p">(</span><span class="s">&#34;Enter the destination IP or hostname for traceroute: &#34;</span><span class="p">);</span>
+                <span class="kt">char</span> <span class="n">dest</span><span class="p">[</span><span class="mi">256</span><span class="p">];</span>
+                <span class="n">scanf</span><span class="p">(</span><span class="s">&#34;%s&#34;</span><span class="p">,</span> <span class="n">dest</span><span class="p">);</span>
+                <span class="kt">char</span> <span class="n">tracerouteCommand</span><span class="p">[</span><span class="mi">256</span><span class="p">];</span>
+                <span class="n">sprintf</span><span class="p">(</span><span class="n">tracerouteCommand</span><span class="p">,</span> <span class="s">&#34;traceroute %s&#34;</span><span class="p">,</span> <span class="n">dest</span><span class="p">);</span>
+                <span class="n">system</span><span class="p">(</span><span class="n">tracerouteCommand</span><span class="p">);</span>
+                <span class="k">break</span><span class="p">;</span>
+            <span class="k">case</span> <span class="mi">8</span><span class="o">:</span>
+                <span class="n">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+            <span class="k">default</span><span class="o">:</span>
+                <span class="n">printf</span><span class="p">(</span><span class="s">&#34;Invalid choice. Please try again.</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div><p>.</p>
 
         </div>
                 
@@ -835,8 +788,8 @@ wifi.powersave = 2
       </div>
      
      <script>
-        var oid = "views_posts\/Linux-setup\/index.md"
-        var oid_likes = "likes_posts\/Linux-setup\/index.md"
+        var oid = "views_posts\/Computer-network\/index.md"
+        var oid_likes = "likes_posts\/Computer-network\/index.md"
       </script>
       
       
@@ -855,7 +808,7 @@ wifi.powersave = 2
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="flex group mr-3" href="/posts/git-guide/">
+            <a class="flex group mr-3" href="/posts/linux-setup/">
               <span
                 class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
                 >&larr;</span
@@ -867,7 +820,7 @@ wifi.powersave = 2
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Git Guide</span
+                  >Debian based linux distro Setup</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
@@ -877,26 +830,6 @@ wifi.powersave = 2
           
         </span>
         <span>
-          
-            <a class="flex text-right group ml-3" href="/posts/computer-network/">
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Computer Network</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                </span>
-              </span>
-              <span
-                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
-                >&rarr;</span
-              >
-              <span
-                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
-                >&larr;</span
-              >
-            </a>
           
         </span>
       </div>
