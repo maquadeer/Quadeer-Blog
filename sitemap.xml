@@ -57,6 +57,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>/ai-chapter/ai-lab/</loc>
+    <lastmod>2023-11-05T21:55:57+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>/ai-chapter/</loc>
     <lastmod>2023-11-05T21:55:57+05:30</lastmod>
     <changefreq>daily</changefreq>
