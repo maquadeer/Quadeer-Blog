@@ -29,6 +29,56 @@
     </item>
     
     <item>
+      <title>AI chapter-1</title>
+      <link>/ai-chapter/ai-chapter-1/</link>
+      <pubDate>Sun, 05 Nov 2023 21:55:57 +0530</pubDate>
+      
+      <guid>/ai-chapter/ai-chapter-1/</guid>
+      <description>Problem Solving &amp;amp; Search #   Introduction to Intelligence #    Artificial Intelligence (AI) is a multidisciplinary field that seeks to create intelligent agents capable of emulating human-like behaviors such as problem-solving, learning, understanding natural language, and interacting with the environment.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/ai-chapter/ai-chapter-1/feature.jpeg" />
+    </item>
+    
+    <item>
+      <title>AI chapter-2</title>
+      <link>/ai-chapter/ai-chapter-2/</link>
+      <pubDate>Sun, 05 Nov 2023 21:55:57 +0530</pubDate>
+      
+      <guid>/ai-chapter/ai-chapter-2/</guid>
+      <description>Knowledge, Reasoning &amp;amp; Planning #   Reasoning #   Knowledge-Based Agent #    A knowledge-based agent is a sophisticated system designed to utilize knowledge for decision-making and problem-solving.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/ai-chapter/ai-chapter-2/feature.jpeg" />
+    </item>
+    
+    <item>
+      <title>Basic R</title>
+      <link>/ds-chapter/basic-r/</link>
+      <pubDate>Sun, 05 Nov 2023 21:55:57 +0530</pubDate>
+      
+      <guid>/ds-chapter/basic-r/</guid>
+      <description>R Programming Language #   Introduction #  R is a robust programming language and environment designed for statistical computing and data analysis.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/ds-chapter/basic-r/feature.jpeg" />
+    </item>
+    
+    <item>
+      <title>CN chapter-1</title>
+      <link>/cn-chapter/cn-chapter-1/</link>
+      <pubDate>Sun, 05 Nov 2023 21:55:57 +0530</pubDate>
+      
+      <guid>/cn-chapter/cn-chapter-1/</guid>
+      <description>Data Communication Components #   Representation of Data Communication #    Data communication involves the exchange of information between two or more devices using a communication medium.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/cn-chapter/cn-chapter-1/feature.jpeg" />
+    </item>
+    
+    <item>
+      <title>DS chapter-1</title>
+      <link>/ds-chapter/ds-chapter-1/</link>
+      <pubDate>Sun, 05 Nov 2023 21:55:57 +0530</pubDate>
+      
+      <guid>/ds-chapter/ds-chapter-1/</guid>
+      <description>Data Science #   Introduction to Data Science #   Definition #  Data Science is an interdisciplinary field that leverages scientific methods, processes, algorithms, and systems to extract insights and knowledge from structured and unstructured data.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/ds-chapter/ds-chapter-1/feature.jpg" />
+    </item>
+    
+    <item>
       <title>Git Guide</title>
       <link>/posts/git-guide/</link>
       <pubDate>Sun, 05 Nov 2023 21:55:57 +0530</pubDate>
