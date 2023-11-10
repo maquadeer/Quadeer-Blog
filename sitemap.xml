@@ -4,37 +4,19 @@
 
   <url>
     <loc>/</loc>
-    <lastmod>2023-11-09T22:57:34+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>/posts/linux-setup/</loc>
-    <lastmod>2023-11-09T22:57:34+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>/posts/</loc>
-    <lastmod>2023-11-09T22:57:34+05:30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>/posts/git-guide/</loc>
     <lastmod>2023-11-09T21:55:57+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>/posts/vim-setup/</loc>
-    <lastmod>2023-11-09T19:26:09+05:30</lastmod>
+    <loc>/cn-chapter/cn-chapter-1/</loc>
+    <lastmod>2023-11-09T21:55:57+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>/cn-chapter/</loc>
-    <lastmod>2023-11-06T11:20:05+05:30</lastmod>
+    <lastmod>2023-11-09T21:55:57+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -45,7 +27,25 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>/posts/linux-setup/</loc>
+    <lastmod>2023-11-05T22:57:34+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2023-11-05T22:57:34+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>/ai-chapter/ai-chapter-1/</loc>
+    <lastmod>2023-11-05T21:55:57+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/ai-chapter/ai-lab/</loc>
     <lastmod>2023-11-05T21:55:57+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -71,6 +71,18 @@
   <url>
     <loc>/ds-chapter/</loc>
     <lastmod>2023-11-05T21:55:57+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/posts/git-guide/</loc>
+    <lastmod>2023-11-05T21:55:57+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>/posts/vim-setup/</loc>
+    <lastmod>2023-11-05T19:26:09+05:30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
