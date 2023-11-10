@@ -19,6 +19,16 @@
     </item>
     
     <item>
+      <title>AI chapter-2</title>
+      <link>/ai-chapter/ai-chapter-2/</link>
+      <pubDate>Mon, 06 Nov 2023 21:55:57 +0530</pubDate>
+      
+      <guid>/ai-chapter/ai-chapter-2/</guid>
+      <description>Knowledge, Reasoning &amp;amp; Planning #   Reasoning #   Knowledge-Based Agent #    A knowledge-based agent is a sophisticated system designed to utilize knowledge for decision-making and problem-solving.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/ai-chapter/ai-chapter-2/feature.jpeg" />
+    </item>
+    
+    <item>
       <title>CN LAB</title>
       <link>/cn-chapter/cn-lab/</link>
       <pubDate>Mon, 06 Nov 2023 11:20:05 +0530</pubDate>
@@ -46,16 +56,6 @@
       <guid>/ai-chapter/ai-chapter-1/</guid>
       <description>Problem Solving &amp;amp; Search #   Introduction to Intelligence #    Artificial Intelligence (AI) is a multidisciplinary field that seeks to create intelligent agents capable of emulating human-like behaviors such as problem-solving, learning, understanding natural language, and interacting with the environment.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/ai-chapter/ai-chapter-1/feature.jpeg" />
-    </item>
-    
-    <item>
-      <title>AI chapter-2</title>
-      <link>/ai-chapter/ai-chapter-2/</link>
-      <pubDate>Sun, 05 Nov 2023 21:55:57 +0530</pubDate>
-      
-      <guid>/ai-chapter/ai-chapter-2/</guid>
-      <description>Knowledge, Reasoning &amp;amp; Planning #   Reasoning #   Knowledge-Based Agent #    A knowledge-based agent is a sophisticated system designed to utilize knowledge for decision-making and problem-solving.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/ai-chapter/ai-chapter-2/feature.jpeg" />
     </item>
     
     <item>
@@ -96,6 +96,16 @@
       <guid>/posts/vim-setup/</guid>
       <description>Basic vim setup #   [!</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/posts/vim-setup/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>AI lab</title>
+      <link>/ai-chapter/ai-lab/</link>
+      <pubDate>Sat, 04 Nov 2023 21:55:57 +0530</pubDate>
+      
+      <guid>/ai-chapter/ai-lab/</guid>
+      <description>Summary of lab #   Week-1 (from lists) #  # -*- coding: utf-8 -*- &amp;#34;&amp;#34;&amp;#34;week1_listset.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="/ai-chapter/ai-lab/feature.jpg" />
     </item>
     
   </channel>
