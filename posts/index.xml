@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2023 Mohammad Abdul Quadeer</copyright>
-    <lastBuildDate>Sun, 05 Nov 2023 22:57:34 +0530</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Nov 2023 22:57:34 +0530</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Debian based linux distro Setup</title>
       <link>/posts/linux-setup/</link>
-      <pubDate>Sun, 05 Nov 2023 22:57:34 +0530</pubDate>
+      <pubDate>Thu, 09 Nov 2023 22:57:34 +0530</pubDate>
       
       <guid>/posts/linux-setup/</guid>
       <description>Things to Do After Installing a Debian-Based Distro #  Congratulations on installing your Debian-based Linux distribution!</description>
@@ -21,7 +21,7 @@
     <item>
       <title>Git Guide</title>
       <link>/posts/git-guide/</link>
-      <pubDate>Sun, 05 Nov 2023 21:55:57 +0530</pubDate>
+      <pubDate>Thu, 09 Nov 2023 21:55:57 +0530</pubDate>
       
       <guid>/posts/git-guide/</guid>
       <description>Detailed explanation of commonly used Git commands #   Configuration #   Configure User Information #  Set your name and email address that will be associated with your Git commits:</description>
@@ -31,7 +31,7 @@
     <item>
       <title>Vim Setup for Competitive Programming</title>
       <link>/posts/vim-setup/</link>
-      <pubDate>Sun, 05 Nov 2023 19:26:09 +0530</pubDate>
+      <pubDate>Thu, 09 Nov 2023 19:26:09 +0530</pubDate>
       
       <guid>/posts/vim-setup/</guid>
       <description>Basic vim setup #   [!</description>
