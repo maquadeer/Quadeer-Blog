@@ -488,22 +488,19 @@
     <div class="relative">
         <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100"></div>
         <div class="mx-auto max-w-7xl p-0">
-            <div class="relative sm:overflow-hidden">
-                <div class="fixed inset-x-0 top-0" style="z-index:-10">
+            <div class="relative shadow-xl sm:overflow-hidden rounded-2xl">
+                <div class="absolute inset-0">
                     
                     
                     
                     
-                    <img class="w-full h-[1000px] object-cover m-0 nozoom" src="/img/background.jpg" role="presentation">
+                    <img class="h-full w-full object-cover m-0 nozoom" src="/img/background.jpg">
                     <div
-                        class="absolute inset-0 h-[1000px] bg-gradient-to-t from-neutral dark:from-neutral-800 to-transparent mix-blend-normal">
-                    </div>
-                    <div
-                        class="opacity-60 absolute inset-0 h-[1000px] bg-gradient-to-t from-neutral dark:from-neutral-800 to-neutral-100 dark:to-neutral-800 mix-blend-normal">
+                        class="absolute inset-0 bg-gradient-to-r from-primary-500 to-secondary-700 dark:from-primary-600 dark:to-secondary-800 mix-blend-multiply">
                     </div>
                     
                 </div>
-                <div class="relative px-8 py-16 flex flex-col items-center justify-center text-center">
+                <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8 flex flex-col items-center justify-center text-center">
                     
                     
                     
@@ -514,11 +511,11 @@
                         alt="Mohammad Abdul Quadeer" src="/img/author_hu40beb9a17c0d729745a4b6a981c30d86_85789_288x288_fill_q75_box_center.jpg" />
                     
                     
-                    <h1 class="mb-2 text-4xl font-extrabold text-neutral-800 dark:text-neutral-200">
+                    <h1 class="mb-2 text-4xl font-extrabold text-neutral-200">
                         Mohammad Abdul Quadeer
                     </h1>
                     
-                    <h2 class="mt-0 mb-0 text-xl text-neutral-800 dark:text-neutral-300">
+                    <h2 class="mt-0 mb-0 text-xl text-neutral-300">
                         Coding, AI, and Linux, my three favorite dimensions in this digital universe. Join me as I navigate the code, tweak algorithms, and embrace the penguin&rsquo;s world. Welcome to my curiosity-driven journey!
                     </h2>
                     
@@ -527,7 +524,7 @@
                         <div class="flex flex-wrap">
                             
                             
-                            <a class="px-2 hover:text-primary-400 text-primary-800 dark:text-primary-200" href="mailto:mdquadeer2003" target="_blank"
+                            <a class="px-2 hover:text-primary-400 text-primary-300" href="mailto:mdquadeer2003" target="_blank"
                                 aria-label="Email" rel="me noopener noreferrer">
 
   <span class="relative block icon">
@@ -539,7 +536,7 @@
                             
                             
                             
-                            <a class="px-2 hover:text-primary-400 text-primary-800 dark:text-primary-200" href="https://github.com/maquadeer" target="_blank"
+                            <a class="px-2 hover:text-primary-400 text-primary-300" href="https://github.com/maquadeer" target="_blank"
                                 aria-label="Github" rel="me noopener noreferrer">
 
   <span class="relative block icon">
@@ -551,7 +548,7 @@
                             
                             
                             
-                            <a class="px-2 hover:text-primary-400 text-primary-800 dark:text-primary-200" href="https://instagram.com/quadeer2003" target="_blank"
+                            <a class="px-2 hover:text-primary-400 text-primary-300" href="https://instagram.com/quadeer2003" target="_blank"
                                 aria-label="Instagram" rel="me noopener noreferrer">
 
   <span class="relative block icon">
@@ -563,7 +560,7 @@
                             
                             
                             
-                            <a class="px-2 hover:text-primary-400 text-primary-800 dark:text-primary-200" href="https://linkedin.com/in/quadeer2003" target="_blank"
+                            <a class="px-2 hover:text-primary-400 text-primary-300" href="https://linkedin.com/in/quadeer2003" target="_blank"
                                 aria-label="Linkedin" rel="me noopener noreferrer">
 
   <span class="relative block icon">
@@ -844,16 +841,6 @@
 
 
 </section>
-
-<div id="background-blur" class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>
-<script>
-    window.addEventListener('scroll', function (e) {
-        var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-        var background_blur = document.getElementById('background-blur');
-        background_blur.style.opacity = (scroll / 300)
-    });
-</script>
-
 
   
 
